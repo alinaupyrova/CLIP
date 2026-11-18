@@ -21,7 +21,7 @@ Radford et al. (2021), *Learning Transferable Visual Models From Natural Languag
 | Step | What happens | Time |
 |---|---|---|
 | 1. Install | `pip install -r requirements.txt` | 2–5 min |
-| 2. **Download CIFAR** | ~325 MB from the University of Toronto server | **⚠️ ~40 min** (the server is slow, ~70 kB/s) |
+| 2. **Download CIFAR** | ~325 MB from the University of Toronto server | ** ~40 min** (the server is slow, ~70 kB/s) |
 | 3. Download CLIP weights | 338 MB, done automatically by `clip.load()` | < 1 min |
 | 4. Image embeddings | 20 000 test images through ViT-B/32 | 2–5 min on Apple M3 (MPS), 10–20 min on CPU |
 | 5. Prompts, metrics, plots | 18 prompt templates per class, accuracy, F1, bootstrap CI | seconds |
