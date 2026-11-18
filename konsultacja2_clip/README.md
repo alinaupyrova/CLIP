@@ -27,7 +27,7 @@ so the same procedure is applied to Oxford-IIIT Pet and EuroSAT. Everything is i
 | Step | What happens | Time |
 |---|---|---|
 | 1. Install | `pip install -r requirements.txt` | 2–5 min |
-| 2. **Download CIFAR** | ~325 MB from the University of Toronto server | **⚠️ ~40 min** (the server is slow, ~70 kB/s) |
+| 2. **Download CIFAR** | ~325 MB from the University of Toronto server | ** ~40 min** (the server is slow, ~70 kB/s) |
 | 3. Download CLIP weights | 338 MB, done automatically by `clip.load()` | < 1 min |
 | 4. Download Oxford-IIIT Pet + EuroSAT | ~0.9 GB (Oxford server + Hugging Face) | ~20 min |
 | 5. Image embeddings | ~28 700 test images (4 datasets) through ViT-B/32 | 5–10 min on Apple M3 (MPS), 20–40 min on CPU |
